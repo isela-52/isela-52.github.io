@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diseño Web con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-brand {
+          font-family: 'Great Vibes', cursive;
+          font-size: 2rem; /* Tamaño de letra ajustable */
+        }
+      </style>
+      
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body background="descarga.jpg";>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" hresf="#" style="font-family: 'Great Vibes', cursive;">Makeup-Isela</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ms-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="navbar-brand" href="#" style="font-family: 'Great Vibes', cursive;">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="navbar-brand" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="font-family: 'Great Vibes', cursive;">
+                          Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li style="background-color: rosybrown;">
+                                <a class="navbar-brand" href="#" style="font-family: 'Great Vibes', cursive; ">Planchado de Ceja</a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li style="background-color: rosybrown;">
+                                <a class="navbar-brand" href="#" style="font-family: 'Great Vibes', cursive;">AlaCiados Permanentes</a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li style="background-color: rosybrown;">
+                                <a class="navbar-brand" href="#" style="font-family: 'Great Vibes', cursive;">Rizados de pestañas</a>
+                            </li>
+                        </ul>
+                        
+                      </li>
+                      <li class="nav-item">
+                        <a class="navbar-brand" href="#" style="font-family: 'Great Vibes', cursive;">Contacto</a>
+                      </li>
+                    </ul>                 
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <section class="carruseles">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <style>
+                .btn-primary {
+                  font-family: 'Harrington', serif;
+                }
+              </style>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="rizados de pestañas.jpeg" class="d-block w-100" alt="rizado de pestañas" style="height: 550px; object-fit: contain;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>RIZADOS DE PESTAÑAS</h5>
+                  <p>Si bajas la mirada que sea solo para lucir tus pestañas.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="planchado de ceja.jpeg" class="d-block w-100" alt="planchado" style="height: 300px; object-fit: contain;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PLANCHADO DE CEJA</h5>
+                  <p>Tus cejas son los unicos que pones en forma sin hacer ejercicio.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="alaciado de cabello.jpeg" class="d-block w-100" alt="alaciado" style="height: 500px; object-fit: contain;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>ALACIADO DE CABELLO</h5>
+                  <p>La vida es demasiado corta para llevar un cabello aburrido.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <style>
+        h2 {
+          font-family: 'Papyrus', fantasy;
+        }
+      </style>
+    <section class="nosotros my-5">
+        <h2 class="text-center my-5">Acerca De</h2>
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <style>
+                            p {
+                              font-family: 'Harrington', serif;
+                            }
+                          </style>
+                        <div class="col-6">
+                            <p>Los servicios de belleza son todas aquellas actividades que se realizan con el fin de modificar temporalmente la apariencia estética del cuerpo humano a nivel del cabello, cuero cabelludo, rostro.</p>
+                            <p>El cuidado personal fue algo muy simbólico en el Renacimiento, donde los peinados de los griegos, por ejemplo, se volvieron a imitar usando trenzas y moños perfectos al igual que coronas y joyas; la diferencia era que estos elementos podían ser usados por toda la sociedad y no solo por quienes tenían un alto rango, como el uso de lociones y perfumes.</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <!-- Imagen 1 -->
+                                <div class="col-6 mb-3">
+                                    <img src="cejas.jpg" alt="Maquillaje 1" class="img-fluid">
+                                </div>
+                                <!-- Imagen 2 -->
+                                <div class="col-6 mb-3">
+                                    <img src="pestañas.jpg" alt="Maquillaje 2" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+    </section>
+    <section class="nosotros my-5">
+        <h2 class="text-center my-5">Nuestros Servicios</h2>
+        <div class="container">
+            <div class="row">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <img src="alaciados 1.jpeg" class="card-img-top" alt="...">
+                                <style>
+                                    h5.card-title {
+                                      font-family: 'Harrington', serif;
+                                    }
+                                  </style>
+                                <div class="card-body">
+                                  <h5 class="card-title">ALACIADO CON KERATINA</h5>
+                                  <p class="card-text">Nuestro cabello es como una planta, necesita cuidados e hidratación, no esperes que tu cabello crezca sin esto.</p>
+                                  <style>
+                                    .btn-primary {
+                                      font-family: 'Harrington', serif;
+                                    }
+                                  </style>
+                                  <a href="#" class="btn btn-primary">Ver Más</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <img src="planchado de ceja 1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">PLANCHADO DE CEJAS</h5>
+                                  <p class="card-text">La vida es demasiado corta como para no llevar las cejas perfectas.</p>
+                                  <a href="#" class="btn btn-primary">Ver Más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <img src="rizado de pestañas 1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">RIZADOS DE PESTAÑAS</h5>
+                                  <p class="card-text">Las pestañas son la mayor expresión de tu rostro.</p>
+                                  <a href="#" class="btn btn-primary">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                
+    </section>
+    <section class="Contáctenos bg-light py-5">
+        <h2 class="text-center">Contáctanos</h2>
+        <div class="container">
+            <style>
+                /* Estilo para las etiquetas label */
+                label.form-label {
+                  font-family: 'Harrington', serif;
+                }
+              
+                /* Estilo para los divs con clase form-text */
+                .form-text {
+                  font-family: 'Harrington', serif;
+                }
+              </style>
+            <form class="row">
+                <div class="mb-3 col-4">
+                    <label for="Nombre" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nombre">
+                    <div id="nombre" class="form-text">Mensaje a mostar para nombre.</div>
+                  </div>
+                <div class="mb-3 col-4">
+                  <label for="Correo electronico" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
+                </div>
+                <div class="mb-3 col-4">
+                    <label for="Asuntos" class="form-label">Asuntos</label>
+                    <input type="text" class="form-control" id="Asunto" aria-describedby="asunto">
+                    <div id="nombre" class="form-text">Mensaje a mostar para Asunto.</div>
+                  </div>
+                  <div class="mb-3 col-12">
+                    <style>
+                        label[for="Mensaje"] {
+                          font-family: 'Harrington', serif;
+                        }
+                      </style>
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea class="form-control" name="mensaje" id="" cols="30" rows="5"></textarea>
+                  </div>
+                <div class="text-center"> <button type="enviar" class="btn btn-primary">Enviar</button></div>
+            </div>
+            </form>
+        </div>
+    </section>
+    <style>
+        footer {
+          font-family: 'Harrington', serif;
+        }
+      </style>
+    <footer class="text-center py-3">
+        &copy; Makeup-Isela - Todos los derechos reservados
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
